@@ -35,8 +35,9 @@
                 <center>
                     <div class="polaroid" style="padding:1%;">                            
                         <!-- <img src="images/owner1.jpg" class="img-circle img-responsive" alt="Owner" width="304" height="236"> -->                            
-                        <h4>Raj</h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;rajgardencare@gmail.com <br>                            
-                        <span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886
+                        <h4>Raj Garden Care</h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;rajgardencare@gmail.com <br>                            
+                        <span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886<br>
+                        <span class="glyphicon glyphicon-phone"></span>&nbsp;+61-468465004
                     </div>
                 </center>
             </div>

@@ -22,7 +22,7 @@
 		        	<span class="icon-bar"></span>                        
 		      	</button>	      
 		      	<span>
-		      		<img class="pull-left image_class" src="images/logo_large.png" height="50" width="50" />
+		      		<a href = "/raj_garden_care"><img class="pull-left image_class" src="images/logo_large.png" height="50" width="50" /></a>
 		      		<webtitle class="title"><b><i>&nbsp;Raj Garden Care</i></b></webtitle>
 				</span>				
 		    </div>
@@ -35,17 +35,17 @@
 					<img src="images/services.png" height="24" width="24">&nbsp;Services We Offer</a>
 					<ul class="dropdown-menu" style="background-color: #193B1B;">
 						<li><a href="services.php">All Services</a></li>
-						<li><a href="services/lawn_mowing.php">Lawn Mowing</a></li>
-						<li><a href="services/edging.php">Edging</a></li>
-						<li><a href="services/triming.php">Triming</a></li>
-						<li><a href="services/garden_bed_installation.php">Garden Bed Installation</a></li>
-						<li><a href="services/mulch.php">Mulch</a></li>
-						<li><a href="services/pebbles.php">Pebbles</a></li>
-						<li><a href="services/new_turf.php">New Turf</a></li>
-						<li><a href="services/new_plant.php">New Plant</a></li>
-						<li><a href="services/hedges_installation.php">Hedges Installation</a></li>
-						<li><a href="services/land_scaping.php">Land Scaping</a></li>
-						<li><a href="services/blower_clean_up.php">Blower Clean Up</a></li>
+						<li><a href="services/selected_service.php?service_name=lawn_mowning">Lawn Mowing</a></li>
+						<li><a href="services/selected_service.php?service_name=edging">Edging</a></li>
+						<li><a href="services/selected_service.php?service_name=triming">Triming</a></li>
+						<li><a href="services/selected_service.php?service_name=garden_bed_installation">Garden Bed Installation</a></li>
+						<li><a href="services/selected_service.php?service_name=mulch">Mulch</a></li>
+						<li><a href="services/selected_service.php?service_name=pebbles">Pebbles</a></li>
+						<li><a href="services/selected_service.php?service_name=new_turf">New Turf</a></li>
+						<li><a href="services/selected_service.php?service_name=new_plant">New Plant</a></li>
+						<li><a href="services/selected_service.php?service_name=hedges_installation">Hedges Installation</a></li>
+						<li><a href="services/selected_service.php?service_name=land_scaping">Land Scaping</a></li>
+						<li><a href="services/selected_service.php?service_name=blower_clean_up">Blower Clean Up</a></li>
 					</ul>
 		        </li>
 		        <li><a href="contact_us.php"><img src="images/telephone46.png" height="24" width="24">&nbsp;Contact Us</a></li>
@@ -54,4 +54,4 @@
 		    </div>
 		  </div>
 		</nav>
-	<div class="container col-lg-10 col-md-8 col-sm-8 col-xs-6 col-lg-offset-1 col-xs-offset-2 col-md-offset-2 col-sm-offset-2" style="margin-top:8%;">
+	<div class="container col-lg-10 col-md-8 col-sm-8 col-xs-6 col-lg-offset-1 col-xs-offset-2 col-md-offset-2 col-sm-offset-2" style="margin-top:6%;">

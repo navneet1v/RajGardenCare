@@ -71,7 +71,9 @@ p{
 
 div.polaroid {
     width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+    box-shadow: 10px 10px #A4BD9E;
     text-align: center;
 }
 
@@ -81,15 +83,29 @@ div.polaroid {
 
 .service-list li a{
     text-decoration: none;    
-    font-size: 1.25em; 
-    color:#085E08;
+    font-size: 1.25em;    
+    color:#085E08;   
 }
 
 .service-list li a:hover{
     font-size: 2em;
-    font-weight: bold; 
-    color:#085E08;   
+    font-weight: bold;
+    -webkit-animation: incsize 2s ; /* Chrome, Safari, Opera */
+    animation: incsize 2s;
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes incsize {
+    from {font-size: 1.25em;}
+    to {font-size: 2em;font-weight: bold;}
+}
+
+/* Standard syntax */
+@keyframes incsize {
+    from {font-size: 1.25em;}
+    to {font-size: 2em;font-weight: bold;}
+}
+
 
 .tales {
   width: 100%;
@@ -103,12 +119,14 @@ div.polaroid {
 #map-container{
     height:300px; 
     float:left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+    box-shadow: 10px 10px #A4BD9E;
 }
 
 .line {
-    width: 30%;
-    height: 0.1em;
+    width: 10%;
+    height: 0.2em;
     background-color:#085E08;
     color:#085E08;
     border: 0 none;
@@ -116,8 +134,51 @@ div.polaroid {
     padding: 0px;
 }
 
+.thumbnail{
+    margin-top: 16%;
+    margin-left: 10%;
+    min-height: 28em;
+}
+
+.shadow{
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+    box-shadow: 10px 10px #A4BD9E;
+}
+
+.btn-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    /*box-shadow: 5px 5px #A4BD9E;*/
+    background-color: white;
+    color: #085E08;
+    border-color: white;  
+}
+
+.heading_link{
+    text-decoration: none;
+    color:#085E08;
+}
+
+.heading_link:hover{
+    text-decoration: none;
+    color:#085E08;
+    font-weight: bold;
+}
+
+
 /* fonts */
 @font-face {
     font-family: SegoeUI;
     src: url(../fonts/segoeui.ttf);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {box-shadow: 10px 20px 30px blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px blue;}
 }

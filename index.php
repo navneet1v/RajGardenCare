@@ -12,23 +12,23 @@
                 </p>
                 <footer style="color:#085E08;"><i>Alexandra Whitford</i></footer>
             </blockquote>
-            <h1 style="margin-left:3%; margin-bottom:3%;">Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886, +61-468465004</b></h1>            	
+            <h1 style="margin-left:3%; margin-bottom:3%;">Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;+61-468465004</b></h1>            	
             <div class="container">                
                 <p class="text-center" style="font-size:2em;"> 
                     Give <strong> Raj Garden Care (Raj)</strong> a call for following : 
                 <br></p>
-                <ul class="list-unstyled service-list">
-                    <li><a id="li_item" href="services/lawn_mowing.php">1. Lawn Mowing</a></li>
-                    <li><a id="li_item" href="services/edging.php">2. Edging</a></li>
-                    <li><a id="li_item" href="services/triming.php">3. Triming</a></li>
-                    <li><a href="services/garden_bed_installation.php">4. Garden Bed Installation</a></li>
-                    <li><a href="services/mulch.php">5. Mulch</a></li>
-                    <li><a href="services/pebbles.php">6. Pebbles</a></li>
-                    <li><a href="services/new_turf.php">7. New Turf</a></li>
-                    <li><a href="services/new_plant.php">8. New Plant</a></li>
-                    <li><a href="services/hedges_installation.php">9. Hedges Installation</a></li>
-                    <li><a href="services/land_scaping.php">10. Land Scaping</a></li>
-                    <li><a href="services/blower_clean_up.php">11. Blower Clean Up</a></li>                                
+                <ul class="list-unstyled service-list" id="list">
+                    <li><a class="li_item" href="services/selected_service.php?service_name=lawn_mowning">1. Lawn Mowing</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=edging">2. Edging</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=triming">3. Triming</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=garden_bed_installation">4. Garden Bed Installation</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=mulch">5. Mulch</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=pebbles">6. Pebbles</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=new_turf">7. New Turf</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=new_plant">8. New Plant</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=hedges_installation">9. Hedges Installation</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=land_scaping">10. Land Scaping</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=blower_clean_up">11. Blower Clean Up</a></li>                                
                 </ul>    
                 <div class="row col-lg-11 col-md-8 col-sm-4  col-xs-4" >
                     <p class="text-center" style="font-family:Cursive; padding:1em; font-size:2.3em;">
