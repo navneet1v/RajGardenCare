@@ -4,6 +4,14 @@ body{
     color:#085E08;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;   
+}
+
 .title{
 	color: white;
 	font-size: 40px;
@@ -137,7 +145,7 @@ div.polaroid {
 .thumbnail{
     margin-top: 16%;
     margin-left: 10%;
-    min-height: 28em;
+    min-height: 29em;
 }
 
 .shadow{
@@ -166,6 +174,19 @@ div.polaroid {
     font-weight: bold;
 }
 
+.service_line{
+    height: 1px;
+    border: 0;
+    border-top: 1px solid green;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color:#085E08;
+    color: white;
+    min-height: 10em;
+}
 
 /* fonts */
 @font-face {

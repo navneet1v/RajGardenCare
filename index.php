@@ -12,7 +12,7 @@
                 </p>
                 <footer style="color:#085E08;"><i>Alexandra Whitford</i></footer>
             </blockquote>
-            <h1 style="margin-left:3%; margin-bottom:3%;">Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;+61-468465004</b></h1>            	
+            <center><h1 style="margin-left:3%; margin-bottom:3%;">Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;+61-468465004</b></h1></center>            	
             <div class="container">                
                 <p class="text-center" style="font-size:2em;"> 
                     Give <strong> Raj Garden Care (Raj)</strong> a call for following : 

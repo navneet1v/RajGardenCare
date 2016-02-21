@@ -18,9 +18,9 @@
                                 <div class=\"thumbnail shadow\">
                                     <img src=\"{$services_details[$services[$i]]['image']}\" alt=\"Picture{$i}\">
                                     <div class=\"caption\">
-                                        <center><a class=\"heading_link\" href=\"services/selected_service.php?service_name={$services[$i]}\"><h3>{$services_details[$services[$i]]['name']}</h3></a></center>
+                                        <center><a class=\"heading_link\" href=\"services/selected_service.php?service_name={$services[$i]}\"><h3>{$services_details[$services[$i]]['name']}</h3></a>
                                         <p>{$services_details[$services[$i]]['short_description']}</p>
-                                        <center><p><a href=\"{$services_details[$services[$i]]['url']}\" class=\" btn-shadow btn btn-success\" role=\"button\"><b>Read More</b></a>
+                                        <p><a href=\"{$services_details[$services[$i]]['url']}\" class=\" btn-shadow btn btn-success\" role=\"button\"><b>Read More</b></a>
                                         </p></center>
                                     </div>
                                 </div>

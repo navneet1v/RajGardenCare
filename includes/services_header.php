@@ -12,12 +12,16 @@
 		?>
 	</title>
 	<meta charset="UTF-8">
+	<meta http-equiv="Cache-control" content="public">
+	<meta name="description" content="Raj Garden Care a gardening service.">
+	<meta name="robots" content="index,follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../images/logo_green.png" type="image/x-icon" />
-	<link rel="stylesheet" href="../css/bootstrap.min.css" >	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
 	<link rel="stylesheet" href="../css/common.css">
-	<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript " src="../js/bootstrap.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript " src="../js/common.js"></script>	
 </head>
 <body>	
@@ -30,8 +34,8 @@
 	        	<span class="icon-bar"></span>                        
 	      	</button>	      
 	      	<span>
-	      		<a href = "/raj_garden_care"><img class="pull-left image_class" src="../images/logo_large.png" height="50" width="50" /></a>
-	      		<webtitle class="title"><b><i>&nbsp;Raj Garden Care</i></b></webtitle>
+	      		<a href = "../index.php"><img class="pull-left image_class" src="http://res.cloudinary.com/dyeyrc0lf/image/upload/v1455897826/logo_large_n6xt1m.png" height="50" width="50" />
+	      		<webtitle class="title"><b><i>&nbsp;Raj Garden Care</i></b></webtitle></a>
 			</span>				
 	    </div>
 

@@ -3,7 +3,7 @@
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <?php 
-            $number_of_images = 6;
+            $number_of_images = 10;
             for($i=1; $i<= $number_of_images; $i++){
                 echo "<li data-target=\"#myCarousel\" data-slide-to=\"{$i}\"></li>";
             }
@@ -16,7 +16,7 @@
             <img src="images/Pic1.jpg" alt="Pic1">      
         </div>
         <?php 
-            $number_of_images = 6;
+            $number_of_images = 10;
             for($i=2; $i<= $number_of_images; $i++){
                 echo "\n<div class=\"item\">
                     <img src=\"images/Pic{$i}.jpg\" alt=\"Pic{$i}\">      
