@@ -6,48 +6,45 @@
             &nbsp;&nbsp;<secondheading class="secondheading">Home</secondheading> 	
         </div>
         <div class="panel-body" style="background-color: #f5f5f5;"> 
-            <blockquote>
+            <blockquote style="margin-bottom: 0.5%">
                 <p><i>Imagine If Trees Gave Off WIFI Singnals We Would Be Planting So Many Trees
                     And We'd Probably Saved Plant Too.<br>Too Bad They Only Produce The Oxygen We Breath.</i>
                 </p>
                 <footer style="color:#085E08;"><i>Alexandra Whitford</i></footer>
             </blockquote>
-            <center><h1 style="margin-left:3%; margin-bottom:3%;">Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;+61-452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;+61-468465004</b></h1></center>            	
-            <div class="container">                
-                <p class="text-center" style="font-size:2em;"> 
-                    Give <strong> Raj Garden Care (Raj)</strong> a call for following : 
-                <br></p>
-                <ul class="list-unstyled service-list" id="list">
-                    <li><a class="li_item" href="services/selected_service.php?service_name=lawn_mowning">1. Lawn Mowing</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=edging">2. Edging</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=triming">3. Triming</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=garden_bed_installation">4. Garden Bed Installation</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=mulch">5. Mulch</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=pebbles">6. Pebbles</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=new_turf">7. New Turf</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=new_plant">8. New Plant</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=hedges_installation">9. Hedges Installation</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=land_scaping">10. Land Scaping</a></li>
-                    <li><a class="li_item" href="services/selected_service.php?service_name=blower_clean_up">11. Blower Clean Up</a></li>                                
-                </ul>    
-                <div class="row col-lg-11 col-md-8 col-sm-4  col-xs-4" >
-                    <p class="text-center" style="font-family:Cursive; padding:1em; font-size:2.3em;">
-                        <b><i>#Services at a very competitive price</i></b>
-                    </p>
-                    <p style="font-size:1.8em; text-align: justify;">
-                        Available all round <b>AUBURN, CARLINGFORD, DUNDAS, ERMINGTON, GIRRAWEEN, GRANVILLE, HARRIS PARK, HOMEBUSH, LIDCOMBE, MERRYLANDS, NORTH PARRAMATTA,
-                         NORTH RYDE, OLD TOONGABIE, PENDE HILLS, PENDLE HILL, PROSPECT, TELOPEA, TOONGABIE, WENTHWORTHVILLE, WENTWORTHVILLE, WESTMEAD 
-                         </b> and all the neighbouring suburbs.
-                    </p>
-                    <p style="font-size:3em;margin-bottom:3%; margin-top:3%; font-family:Cursive;">
-                        <marquee>Available everyday from <i>7AM to 7PM.</b></marquee>
-                    </p>
-                </div>
-            </div>
-            <div class="container col-lg-10 col-md-8 col-sm-8 col-xs-6 col-lg-offset-1 col-xs-offset-2 col-md-offset-2 col-sm-offset-2">
-                <p style="font-size:2em; color:#085E08;">#Some of our past endeavours</p>
-                <?php require_once("caraousal.php"); ?>
-            </div>
+            <h2 class="text-center" style="margin-top: 0; margin-bottom: 1%; padding: 0;">Call Us <span class="glyphicon glyphicon-phone"></span>&nbsp;0452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;0468465004</h2>
+            <div class="container col-lg-12">                
+                <p> 
+                    Raj Garden Care offers a comprehensive selection of garden and lawn care solutions. No matter the condition of your yard, we can ensure it looks its very best.
+                <br>Our Services include :</p>
+                <ul class="service-list" id="list">
+                    <li><a class="li_item" href="services/selected_service.php?service_name=lawn_mowning">Lawn Mowing</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=edging">Edging</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=triming">Triming</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=garden_bed_installation">Garden Bed Installation</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=mulch">Mulch</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=pebbles">Pebbles</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=new_turf">New Turf</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=new_plant">New Plant</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=hedges_installation">Hedges Installation</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=land_scaping"> Land Scaping</a></li>
+                    <li><a class="li_item" href="services/selected_service.php?service_name=blower_clean_up">Blower Clean Up</a></li>                                
+                </ul>
+                <p>From lawn maintenance to creating new garden areas, we can help.</p>                    
+                <a class="btn btn-lg btn-success" href="contact_us.php">
+                <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Get a free quote
+                </a>
+                <p class="text-center" style="font-family:Cursive; padding:0.7em; font-size:2.3em;">
+                    <i>#Services at a very competitive price</i>
+                </p>
+                <p style="font-size:1.8em; text-align: justify;">
+                    Available all round Auburn, Carlingford, Dundas, Ermington, Girraween, Granville, Harris Park, Homebush, Lidcombe, Merrylands, North Parramatta,
+                     North Ryde, Old Toongabie, Pende Hills, Pendle Hill, Prospect, Telopea, Toongabie, Wenthworthville, Wentworthville, Westmead
+                     and all the neighbouring suburbs.
+                </p>                    
+            </div>            
+            <p class="text-center" style="font-size:1.8em; "><br>#Some of our past endeavours<br></p>
+            <?php require_once("caraousal.php"); ?>    
         </div>          
     </div> 
 <?php require_once("includes/footer.php"); ?>    	
