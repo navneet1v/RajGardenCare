@@ -14,7 +14,7 @@
                 <?php  
                     for( $i = 1 ; $i <= 11 ; $i++ ){
                         if($services_details[$services[$i]]['visible']==true){                        
-                            echo "<div class=\"col-sm-4 col-md-3\">
+                            echo "<div class=\"col-sm-4 col-md-4\">
                                     <div class=\"thumbnail shadow\">
                                         <img src=\"{$services_details[$services[$i]]['image']}\" alt=\"Picture{$i}\">
                                         <div class=\"caption\">
@@ -27,11 +27,20 @@
                                 </div> ";
                         }
                     }
-                ?>            
+                ?>
+                <div class="col-sm-4 col-md-4">
+                    <div class="thumbnail shadow" style="min-height: 19.5em;">
+                        
+                            <h2><span class="glyphicon glyphicon-chevron-right"><a style="margin-top: 2%;" href="contact_us.php"></span>&nbsp;Get a free quote</a></h2>
+                        
+                        <div class="conatiner col-lg-12">
+                            <p style="padding: 0.5em;">Contact us to arrange a visit when we will provide a free, no obligation quote for your landscaping and design requirements.</p>
+                            <a href="contact_us.php"><h3 align="right">Contact<span class="glyphicon glyphicon-play"></span></h3></a>
+                        </div>
+                    </div> 
+                </div>            
             </div>
-            <a class="btn btn-lg btn-success" style="margin-left: 2%;" href="contact_us.php">
-                <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Get a free quote
-            </a>
+            
         </div>          
     </div> 
 <?php require_once("includes/footer.php"); ?>    	

@@ -3,13 +3,18 @@ body{
 	background-color: #DEFFD6;
     color:#085E08;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 a:hover{
     text-decoration: none;
+    color: inherit;
 }
 
 a:active{
     text-decoration: none;   
+    color: inherit;
 }
 
 abbr[data-original-title], abbr[title]{
@@ -150,7 +155,7 @@ div.polaroid {
 .thumbnail{
     margin-top: 3%;
     margin-left: 10%;
-    min-height: 29em;
+    min-height: 31em;
 }
 
 .shadow{

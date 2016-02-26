@@ -8,7 +8,7 @@
 						"url" =>"services/selected_service.php?service_name=lawn_mowning",
 						"description" => "Professional lawn cut provides the best possible finish for your lawn including professional edging of entire lawn area including around trees and other garden features.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/c3yfoqwtp/Pic9.jpg",
+						"image" => "images/lawn_mowning.jpg",
 						"visible" => true
 						);
 	$services_details["lawn_mowning"] = $lawn_mowning;
@@ -18,7 +18,7 @@
 						"url" => "services/selected_service.php?service_name=edging",
 						"description" => "An edging in your landscape helps give your yard a cleaner, more manicured look. It defines spaces, and helps keep lawns from creeping into flower beds, weeds out of vegetable gardens, and plants from spilling onto walkways. Edging is a somewhat magical gardening tool. It's one of those things that you don't really think about until you see the difference between a yard with it and a yard without it.<br>We do professional edging with the help of new technology.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/eewhsx7l9/Pic16.jpg",
+						"image" => "images/Pic16.jpg",
 						"visible" => false
 						);
 	$services_details["edging"] = $edging;
@@ -28,7 +28,7 @@
 						"url" => "services/selected_service.php?service_name=triming",
 						"description" => "Triming of leaves makes the garden look clean and gives a new look to your garden. We provide best triming to your garden.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/x9nn5li99/Pic7.jpg",
+						"image" => "images/triming.jpg",
 						"visible" => true
 						);
 	$services_details["triming"] = $triming;
@@ -38,7 +38,7 @@
 						"url" => "services/selected_service.php?service_name=garden_bed_installation",
 						"description" => "We install garden bed in your garden using the new technology under the professionals.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/mt7j39j8t/Pic2.jpg",
+						"image" => "images/garden_bed_installation.jpg",
 						"visible" => true
 						);
 	$services_details["garden_bed_installation"] = $garden_bed_insatllation;
@@ -48,7 +48,7 @@
 						"url" => "services/selected_service.php?service_name=mulch",
 						"description" => "Is your garden have uprooted shrubs and you want to cover them so that it doesnt disrupt your beauty of the garden. Call us and we will provide you with the best mulch and make your garden more beautiful.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/jzdkhavu5/Pic17.jpg",
+						"image" => "images/Pic17.jpg",
 						"visible" => true
 						);
 	$services_details["mulch"] = $mulch;
@@ -58,7 +58,7 @@
 						"url" => "services/selected_service.php?service_name=pebbles",
 						"description" => "Pebbles near the edge of the garden increase the beauty of the garden. So we at Raj Garden can help you in laying the pebbles around the edges of your garden to look it more beautiful.",
 						"price"=> "The price of laying the pebbles may vary on the quality of the pebbles and the amount of work.",
-						"image" => "http://s20.postimg.org/q7ppjeenh/Pic6.jpg",
+						"image" => "images/Pic6.jpg",
 						"visible" => true
 						);
 	$services_details["pebbles"] = $pebbles;
@@ -68,7 +68,7 @@
 						"url" => "services/selected_service.php?service_name=new_turf",
 						"description" => "Need new turf in your lawn and want to make your garden look beautiful as it never was?<br>Call us and install new turf in your garden.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/a1xyahyul/Pic11.jpg",
+						"image" => "images/new_turf.jpg",
 						"visible" => true
 						);
 	$services_details["new_turf"] = $new_turf;
@@ -78,7 +78,7 @@
 						"url" => "services/selected_service.php?service_name=new_plant",
 						"description" => "Want to plant a new plant in your garden?<br> Call us. We provide you the best plant that will grow well and increase the beauty of your garden.",
 						"price"=> "The price and installation of the plant will depend on plant to plant.",
-						"image" => "http://s20.postimg.org/al31jrq99/Pic20.jpg",
+						"image" => "images/Pic20.jpg",
 						"visible" => true
 						);
 	$services_details["new_plant"] = $new_plant;
@@ -88,7 +88,7 @@
 						"url" => "services/selected_service.php?service_name=hedges_installation",
 						"description" => "Careful and regular hedging of your garden is essential to it's maintenance and includes roses, plants, shrubs, fruit trees and small trees. ",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/y6yns7j59/Pic18.jpg",
+						"image" => "images/Pic18.jpg",
 						"visible" => true
 						);
 	$services_details["hedges_installation"] = $hedges_installation;
@@ -98,7 +98,7 @@
 						"url" => "services/selected_service.php?service_name=land_scaping",
 						"description" => "We do professional land scaping at a very reasonable price. Give us a call to know more.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/lncpvy9pp/Pic14.jpg",
+						"image" => "images/land_scaping.jpg",
 						"visible" => true
 						);
 	$services_details["land_scaping"] = $land_scaping;
@@ -108,7 +108,7 @@
 						"url" => "services/selected_service.php?service_name=blower_cleanup",
 						"description" => "Fed up with the dirty blowers??<br>Call us and get your blower cleaned up. We can do it for you.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "http://s20.postimg.org/72r1ndpd9/Pic19.jpg",
+						"image" => "images/Pic19.jpg",
 						"visible" => true
 						);
 	$services_details["blower_clean_up"] = $blower_clean_up;
