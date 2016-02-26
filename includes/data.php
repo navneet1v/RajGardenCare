@@ -8,7 +8,7 @@
 						"url" =>"services/selected_service.php?service_name=lawn_mowning",
 						"description" => "Professional lawn cut provides the best possible finish for your lawn including professional edging of entire lawn area including around trees and other garden features.",
 						"price"=> "The price of the service depends on the amount of work.",
-						"image" => "images/lawn_mowning.jpg",
+						"image" => "images/Pic12.jpg",
 						"visible" => true
 						);
 	$services_details["lawn_mowning"] = $lawn_mowning;

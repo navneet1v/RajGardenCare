@@ -12,7 +12,7 @@
                 </p>
                 <footer style="color:#085E08;"><i>Alexandra Whitford</i></footer>
             </blockquote>
-            <h2 class="text-center" style="margin-top: 0; margin-bottom: 1%; padding: 0;">Call Us <span class="glyphicon glyphicon-phone"></span>&nbsp;0452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;0468465004</h2>
+            <h2 class="text-center" style="margin-top: 0; margin-bottom: 1%; padding: 0;">Call Us <span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004</h2>
             <div class="container col-lg-12">                
                 <p> 
                     Raj Garden Care offers a comprehensive selection of garden and lawn care solutions. No matter the condition of your yard, we can ensure it looks its very best.

@@ -16,7 +16,7 @@
                         if($services_details[$services[$i]]['visible']==true){                        
                             echo "<div class=\"col-sm-4 col-md-4\">
                                     <div class=\"thumbnail shadow\">
-                                        <img src=\"{$services_details[$services[$i]]['image']}\" alt=\"Picture{$i}\">
+                                        <img class=\"thumbnail_image\" src=\"{$services_details[$services[$i]]['image']}\" alt=\"Picture{$i}\">
                                         <div class=\"caption\">
                                             <center><a class=\"heading_link\" href=\"services/selected_service.php?service_name={$services[$i]}\"><h3>{$services_details[$services[$i]]['name']}</h3></a>
                                             <p>{$services_details[$services[$i]]['short_description']}</p>

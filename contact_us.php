@@ -38,8 +38,8 @@
                 <hr class="service_line">
                 <h4>Phone</h4>
                 <p>
-                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0452427886<br>
-                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0468465004
+                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886<br>
+                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004
                 </p>
                 <hr class="service_line">
                 <h4>Email</h4>
