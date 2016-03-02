@@ -93,10 +93,10 @@
 						);
 	$services_details["hedges_installation"] = $hedges_installation;
 
-	$land_scaping = array("name" => "Land Scaping", 
+	$land_scaping = array("name" => "Landscaping", 
 						"short_description"=>"We do professional land scaping at a very reasonable price.",
 						"url" => "services/selected_service.php?service_name=land_scaping",
-						"description" => "We do professional land scaping at a very reasonable price. Give us a call to know more.",
+						"description" => "We do professional landscaping at a very reasonable price. Give us a call to know more.",
 						"price"=> "The price of the service depends on the amount of work.",
 						"image" => "images/land_scaping.jpg",
 						"visible" => true

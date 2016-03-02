@@ -47,7 +47,7 @@
 						<li><a href="services/selected_service.php?service_name=new_turf">New Turf</a></li>
 						<li><a href="services/selected_service.php?service_name=new_plant">New Plant</a></li>
 						<li><a href="services/selected_service.php?service_name=hedges_installation">Hedges Installation</a></li>
-						<li><a href="services/selected_service.php?service_name=land_scaping">Land Scaping</a></li>
+						<li><a href="services/selected_service.php?service_name=land_scaping">Landscaping</a></li>
 						<li><a href="services/selected_service.php?service_name=blower_clean_up">Blower Clean Up</a></li>
 					</ul>
 		        </li>

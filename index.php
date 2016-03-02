@@ -28,7 +28,7 @@
                         <li><a class="li_item" href="services/selected_service.php?service_name=new_turf">New Turf</a></li>
                         <li><a class="li_item" href="services/selected_service.php?service_name=new_plant">New Plant</a></li>
                         <li><a class="li_item" href="services/selected_service.php?service_name=hedges_installation">Hedges Installation</a></li>
-                        <li><a class="li_item" href="services/selected_service.php?service_name=land_scaping"> Land Scaping</a></li>
+                        <li><a class="li_item" href="services/selected_service.php?service_name=land_scaping"> Landscaping</a></li>
                         <li><a class="li_item" href="services/selected_service.php?service_name=blower_clean_up">Blower Clean Up</a></li>
                     </ul>
                     <p>From lawn maintenance to creating new garden areas, we can help.</p>                    
@@ -45,9 +45,7 @@
                     <i>#Services at a very competitive price</i>
                 </p>
                 <p style="font-size:1.8em; text-align: justify;">
-                    Available all round Auburn, Carlingford, Dundas, Ermington, Girraween, Granville, Harris Park, Homebush, Lidcombe, Merrylands, North Parramatta,
-                     North Ryde, Old Toongabie, Pende Hills, Pendle Hill, Prospect, Telopea, Toongabie, Wenthworthville, Wentworthville, Westmead
-                     and all the neighbouring suburbs.
+                    Servicing all Western Suburbs, Inner West, Hill Districts, Eastern Suburbs, Canterbury-Bankstown, Parramatta, Liverpool and all the surrounding suburbs.
                 </p>                    
             </div>            
             <!-- <p class="text-center" style="font-size:1.8em; "><br>#Some of our past endeavours<br></p> -->
