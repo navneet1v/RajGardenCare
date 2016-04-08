@@ -3,6 +3,7 @@
 <head>
 	<title>Raj Garden Care</title>
 	<meta charset="UTF-8">
+	<meta name="msvalidate.01" content="51C1E7E4240710A9EFD72E5ECD960C18" />
 	<meta http-equiv="Cache-control" content="public">
 	<meta name="description" content="Raj Garden Care a gardening service.">
 	<meta name="robots" content="index,follow">

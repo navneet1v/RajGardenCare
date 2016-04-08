@@ -18,7 +18,7 @@
               <hr class="service_line">
               <p class="text-justify"><?php echo $current_service["description"]; ?></p>
               <p><?php echo $current_service["price"]; ?></p>
-              <p>Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;0452427886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;0468465004</b></p>
+              <p>Call Us <b><span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886,&nbsp;<span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004</b></p>
             </div>
       	</div>
     </div>

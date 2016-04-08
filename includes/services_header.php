@@ -15,6 +15,7 @@
 	<meta http-equiv="Cache-control" content="public">
 	<meta name="description" content="Raj Garden Care a gardening service.">
 	<meta name="robots" content="index,follow">
+	<meta name="msvalidate.01" content="51C1E7E4240710A9EFD72E5ECD960C18" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../images/logo_green.png" type="image/x-icon" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">

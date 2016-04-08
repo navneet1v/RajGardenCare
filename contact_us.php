@@ -1,25 +1,47 @@
-<?php require_once("includes/header.php"); ?>
+<?php
+    require_once("includes/functions.php");  
+    require_once("includes/header.php"); 
+?>
+<?php
+    if(isset($_GET["message"])){
+        $val = $_GET["message"] ;
+        if($val == 2){
+            successMessage("Free quotation request is successful.");
+        }else if ($val == 0){
+            infoMessage("Free quotation request is unsuccessful. Please make it again.");
+        }else if($val == 1){
+            warningMessage("Some fields are not filled properly. The fields could be name, suburb or email.");
+        }
+    }
+?>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script>    
-  function init_map() {
-    var var_location = new google.maps.LatLng(-33.812711, 151.019275);
+    var var_marker=null;
+    function init_map() {
+        var var_location = new google.maps.LatLng(-33.812711, 151.019275);
+        var contentString = "Raj Garden Care";
+        var var_mapoptions = {
+            center: var_location,
+            zoom: 15        
+        };
 
-    var var_mapoptions = {
-      center: var_location,
-      zoom: 15
-    };
+        var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,                    
+            title:"Raj Garden Care"
+        });        
 
-    var var_marker = new google.maps.Marker({
-        position: var_location,
-        map: var_map,
-        title:"Venice"});
+        var var_map = new google.maps.Map(document.getElementById("map-container"),var_mapoptions);        
+        var_marker.setMap(var_map); 
 
-    var var_map = new google.maps.Map(document.getElementById("map-container"),
-        var_mapoptions);
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
 
-    var_marker.setMap(var_map); 
-
-  }
+        var_marker.addListener('click', function() {
+            infowindow.open(var_map, var_marker);
+        });
+    }
 
   google.maps.event.addDomListener(window, 'load', init_map);
 </script> 
@@ -38,8 +60,8 @@
                 <hr class="service_line">
                 <h4>Phone</h4>
                 <p>
-                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886<br>
-                    <span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004
+                    <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886<br></abbr>
+                    <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004</abbr>
                 </p>
                 <hr class="service_line">
                 <h4>Email</h4>
@@ -54,35 +76,36 @@
                 <div class="container col-lg-9 col-lg-offset-2" style="background-color: #DEFFD6;">
                     <h2>Request a free quote</h2><br>
                     <form class="form-horizontal <?php 
-                                    if(isset($_POST["submit"])){ 
-                                        echo " hidden";
+                                    if(isset($_GET["message"])){ 
+                                        if($_GET["message"] == 2)
+                                            echo " hidden";
                                     }   
                                 ?> 
-                    " role="form" style="margin-bottom: 1em;" action="" method="POST">
+                    " role="form" style="margin-bottom: 1em;" action="quotation.php" method="POST">
                         <div class="form-group">                        
                             <div class="col-sm-10">
-                              <input type="text" class="form-control" id="Name" placeholder="Name" required>
+                              <input type="text" name="name" class="form-control" id="Name" placeholder="Name" required>
                             </div>
                         </div>                        
                         <div class="form-group" >      
                             <div class="col-sm-10">
-                              <input type="phone" class="form-control" id="phone" placeholder="Contact Phone" required>
+                              <input type="phone" name="phone" class="form-control" id="phone" placeholder="Contact Phone" required>
                             </div>
                         </div>
                         <div class="form-group">     
                             <div class="col-sm-10">
-                              <input type="email" class="form-control" id="email" placeholder="Email" required>
+                              <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="form-group">      
                             <div class="col-sm-10">
-                              <input type="text" class="form-control" id="suburb" placeholder="Suburb">
+                              <input type="text" name="suburb" class="form-control" required id="suburb" placeholder="Suburb">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-10">
                                 <label for="service">Select a Service</label>
-                                <select class="form-control" id="service">
+                                <select class="form-control" id="service" name="service">
                                     <option>Lawn Mowning</option>                                    
                                     <option>Mulching</option>
                                     <option>Hedging</option>
@@ -92,17 +115,17 @@
                         </div>
                         <div class="form-group">      
                             <div class="col-sm-10">
-                              <textarea class="form-control" placeholder="Comments" rows="5" id="comment"></textarea>
+                              <textarea class="form-control" name="comments" placeholder="Comments" rows="5" id="comment"></textarea>
                             </div>
                         </div>
-                        <button type="submit" id="submit" name="submit" class="btn btn-success btn-lg">
+                        <button type="submit" id="submit" name="send_quote" class="btn btn-success btn-lg">
                             <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Send
                         </button>
                     </form>                                
                 </div>                
                 <div class="container col-lg-9 col-lg-offset-2">                
                     <h4>Trading Hours</h4>
-                    <p>Monday - Saturday<br>7am to 7pm<br>Sunday<br>8am to 7pm</p>
+                    <p>Monday - Saturday<br>7am to 6pm<br>Sunday<br>8am to 5pm</p>
                 </div>
             </div>            	
         </div>
