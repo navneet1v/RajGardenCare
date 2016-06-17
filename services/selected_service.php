@@ -6,14 +6,14 @@
 ?>
 <?php require_once("../includes/services_header.php"); ?>
 
-	<div class="panel panel-success " style="box-shadow: 10px 10px #5AC445;" >
+	<div class="panel panel-success col-lg-12 col-md-12 col-sm-12 col-xs-12" style="box-shadow: 10px 10px #A4BD9E; padding:0px; margin:0px;" >
         <div class="panel-heading">
             <img src="../images/services.png">
            	&nbsp;&nbsp;<secondheading class="secondheading"><?php echo $current_service["name"] ; ?></secondheadin>
         </div>            
       	<div class="panel-body" style="background-color: #f5f5f5;">
       		<img class="img-responsive img-thumbnail pull-left" src="../<?php echo $current_service["image"]; ?>" alt="No Image" width="400" height="400">
-            <div class="conatiner col-lg-7 col-sm-6 col-md-6 col-xs-2">
+            <div class="conatiner col-lg-7 col-sm-12 col-md-7 col-xs-12">
               <h3><?php echo $current_service["name"] ; ?></h3>
               <hr class="service_line">
               <p class="text-justify"><?php echo $current_service["description"]; ?></p>

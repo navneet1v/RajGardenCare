@@ -9,15 +9,18 @@
 	<meta name="robots" content="index,follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/logo_green.png" type="image/x-icon" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->	
 	<link rel="stylesheet" href="css/common.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> -->	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/common.js"></script>	
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse navbar-fixed-top" >
+	<nav class="navbar navbar-inverse" >
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -58,4 +61,4 @@
 		    </div>
 		  </div>
 		</nav>
-	<div class="container col-lg-10 col-md-8 col-sm-8 col-xs-6 col-lg-offset-1 col-xs-offset-2 col-md-offset-2 col-sm-offset-2" style="margin-top:6%;">
+	<div class="container col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-xs-offset-1 col-md-offset-1 col-sm-offset-1">

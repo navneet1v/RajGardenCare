@@ -59,8 +59,7 @@
                 </p>
                 <hr class="service_line">
                 <h4>Phone</h4>
-                <p>
-                    <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span>&nbsp;0452 427 886<br></abbr>
+                <p>                    
                     <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span>&nbsp;0468 465 004</abbr>
                 </p>
                 <hr class="service_line">
@@ -70,9 +69,9 @@
                 </p>                
                 <hr class="service_line">
                 <h4 style="margin-top: 1em;">Find us here</h4>
-                <div id="map-container" class="col-lg-12"></div>                
+                <div id="map-container" class="col-lg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223); margin-bottom:5%;"></div>                
             </div>
-            <div class="conatiner col-lg-6">
+            <div class="conatiner col-lg-6 col-sm-12 col-xs-12 col-md-8">
                 <div class="container col-lg-9 col-lg-offset-2" style="background-color: #DEFFD6;">
                     <h2>Request a free quote</h2><br>
                     <form class="form-horizontal <?php 

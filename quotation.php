@@ -21,7 +21,7 @@
 					"Suburb : {$suburb} <br>" . 
 					"Service : {$service} <br>" . 
 					"Comments : {$comments} <br>" ;
-			if(mailTo($subject, $body) == 1){
+			if(mailTo($subject, $body, $email) == 1){
 				redirectTo("contact_us.php?message=2");
 			}else{
 				redirectTo("contact_us.php?message=0");

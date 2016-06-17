@@ -2,9 +2,9 @@
 	require_once 'turbo_send_email_code/lib/TurboApiClient.php';
 	require_once 'config.php';
 
-	function mailTo($subject, $body){
+	function mailTo($subject, $body, $sender_email){
 		$email = new Email();
-		$email->setFrom(SENDER_EMAIL);
+		$email->setFrom($sender_email);
 		$email->setToList(RECIEVER_EMAIL);		
 		$email->setSubject($subject);
 		$email->setContent("Content");

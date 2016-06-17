@@ -13,8 +13,8 @@
 }
 
 body{
-	font-family:SegoeUI;
-	background-color: #DEFFD6;
+    font-family:SegoeUI;
+    background-color: #DEFFD6;
     color:#085E08;
 }
 a{
@@ -37,19 +37,19 @@ abbr[data-original-title], abbr[title]{
 }
 
 .title{
-	color: white;
-	font-size: 40px;
-	font-family:xyz;	
-	margin-top: 10px;
+    color: white;
+    font-size: 2.5em;
+    font-family:xyz;    
+    margin-top: 0.625em;
 }
 
 .image_class{
-	padding: 5px  5px  5px 5px;
+    padding: 0.3125em  0.3125em  0.3125em 0.3125em;
 }
 
 .navbar-inverse{
-	background-color:#085E08;
-	border-color: #085E08;
+    background-color:#085E08;
+    border-color: #085E08;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:hover {
@@ -69,7 +69,7 @@ abbr[data-original-title], abbr[title]{
 
 .navbar-inverse .navbar-nav>li>a {
     color: white;    
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .panel-success>.panel-heading {
@@ -86,26 +86,26 @@ abbr[data-original-title], abbr[title]{
 
 .dropdown-menu>li>a {
     color: #fff;    
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .secondheading{
-	font-size: 23px;	
+    font-size: 1.4375em;    
 }
 
 h4{
-	font-size:23px;
+    font-size:1.4375em;
 }
 
 p{
-	font-size:18px;
+    font-size:1.125em;
 }
 
 div.polaroid {
-    width: 250px;
+    width: 15.625em;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     */
-    box-shadow: 10px 10px #A4BD9E;
+    box-shadow: 0.625em 0.625em #A4BD9E;
     text-align: center;
 }
 
@@ -145,15 +145,15 @@ div.polaroid {
 
 .carousel-inner{
   width:100%;
-  max-height: 500px; !important;
+  max-height: 31.25em; !important;
 }
 
 #map-container{
-    height:300px; 
+    height:18.75em; 
     float:left;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     */
-    box-shadow: 10px 10px #A4BD9E;
+    box-shadow: 0.625em 0.625em #A4BD9E;
 }
 
 .line {
@@ -175,7 +175,7 @@ div.polaroid {
 .shadow{
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     */
-    box-shadow: 10px 10px #A4BD9E;
+    box-shadow: 0.625em 0.625em #A4BD9E;
 }
 
 .thumbnail_image{
@@ -215,6 +215,7 @@ div.polaroid {
     background-color:#085E08;
     color: white;
     min-height: 10em;
+    margin-top: 3%;
 }
 
 /* fonts */
